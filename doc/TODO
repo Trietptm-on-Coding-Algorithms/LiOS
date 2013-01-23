@@ -1,0 +1,13 @@
+1. download
+    pydownload
+        domestic vs foreign (200 vs 200)
+        games vs utilities vs web service (200 vs 100 vs 100)
+2. extract
+    ipalib
+3. select iap apps
+    string *.* | Find /i "/System/Library/Frameworks/StoreKit.framework/StoreKit" > result.txt
+    Access to distinct the first group
+4. analyze ios apps
+    extract class
+    resolve objc_msgsend
+    extract CFGs
