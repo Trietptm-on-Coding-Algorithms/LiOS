@@ -11,3 +11,4 @@
     extract class
     resolve objc_msgsend
     extract CFGs
+5. how to handle jump instruction, this jump change the CFGs
